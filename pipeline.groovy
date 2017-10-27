@@ -15,7 +15,7 @@ pipelineJob('testpipeline') {
                     branch('master')
                 }
         }
-          scriptPath(Jenkinsfile)
+          scriptPath('Jenkinsfile')
     }
 }
 }
